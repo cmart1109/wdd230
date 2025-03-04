@@ -1,0 +1,10 @@
+@media screen and (min-width: 640px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        height: 8vh;
+        justify-content: space-around;
+    }
+    
+}
