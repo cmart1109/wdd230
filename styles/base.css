@@ -100,7 +100,7 @@ section h2 {
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: var(--main-color);
     color: var(--font-color);
