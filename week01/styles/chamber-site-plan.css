@@ -1,0 +1,66 @@
+* {
+    --primary-color: #2e3440;
+    --secondary-color: #3b4252;
+    --main-font-color: #D8DEE9; 
+    --alternate-font-color: #FFFFFF;
+    margin: 0;
+    font-family: "Newsreader", serif;
+    font-style: normal;
+    font-size: large;
+  }
+   
+
+header {
+    background-color: var(--primary-color) ;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    color: var(--main-font-color);
+    padding: 0 2%;
+}
+
+h2 {
+    font-size: larger;
+}
+
+main {
+    margin: 1rem;
+}
+
+main div {
+    margin : 1rem;
+}
+
+.colorpalettes {
+    display: flex;
+    margin: 1rem;
+}
+
+.colorpalettes div {
+    border: 1px solid gray;
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-color {
+    background-color: var(--primary-color);
+    color: var(--main-font-color);
+}
+
+.second-color {
+    background-color: var(--secondary-color);
+    color: var(--main-font-color);
+}
+
+.third-color {
+    background-color: var(--main-font-color);
+    color: var(--primary-color);
+}
+
+.fourth-color {
+    background-color: var(--alternate-font-color);
+    color: var(--primary-color);
+}
