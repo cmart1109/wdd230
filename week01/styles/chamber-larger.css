@@ -1,0 +1,21 @@
+@media screen and (min-width: 800px) {
+    
+    .images {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .pc {
+        width: auto;
+        margin: 5px;
+        height: auto;
+    }
+
+    .mobile {
+        width: 25%;
+        height: 25%;
+    }
+  
+}
