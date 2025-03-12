@@ -3,7 +3,7 @@
     --main-color: #001D4A;
     --secondary-color: #F28F3B;
     --tertiary-color: #006992;
-    --font-color: #EAF8BF;
+    --font-color: #ffffff;
     font-family: "Work Sans", sans-serif;
     margin: 0;
 }
@@ -42,7 +42,7 @@ nav {
     justify-content: space-between;
     padding: 10px;
     height: 22vh;
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     align-items: center;
 }
 
