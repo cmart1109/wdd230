@@ -15,7 +15,7 @@ h1 {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: var(--main-color );
     height: 25vh;
@@ -23,35 +23,66 @@ header {
 }
 
 header img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin-right: 20px;
     margin-left: 20px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 header span {
-    font-size: 2em;
+    font-size: 1.5rem;
     color: var(--font-color);
     font-weight: bold;
 }
 
-nav {
-    display: flex;
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    color: var(--font-color);
+    background-color: var(--main-color);
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before{
+    content: "X";
+}
+
+.hamburguer {
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
     height: 22vh;
+    list-style: none;
     background-color: var(--tertiary-color);
     align-items: center;
 }
 
-nav a {
+.hamburguer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--font-color);
     text-decoration: none;
-    margin: 0 10px;
     font-size: 1.2em;
+    height: 10vh;
+    width: 100%;
 }
+
+.hamburguer a:hover {
+    background-color: var(--font-color);
+    color: var(--main-color);
+}
+
+.hamburguer.open {
+    display: flex;
+}
+
 
 main {
     flex-direction: column;
