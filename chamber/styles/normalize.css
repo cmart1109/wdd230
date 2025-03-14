@@ -1,0 +1,16 @@
+  body {
+    margin: 0;
+  }
+
+  main {
+    display: block;
+  }
+  a {
+    background-color: transparent;
+  }
+  
+  img {
+    border-style: none;
+  }
+  
+  
