@@ -20,7 +20,7 @@ header div {
     padding: 0 2%;
 }
 
-header img {
+header img, footer img {
     width: 3rem;
     height: auto;
 }
@@ -110,6 +110,7 @@ nav.open {
     margin: 1rem;
     display: flex;
     flex-direction: column;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .cards div {
@@ -149,8 +150,14 @@ footer {
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: var(--secondary-color);
+    justify-content: space-around;
+    background-color: var(--primary-color);
     color: var(--main-font-color);
-    height: 8vh;
+
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+
 }
