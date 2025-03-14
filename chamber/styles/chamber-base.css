@@ -15,9 +15,9 @@ header div {
     height: 10vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: var(--main-font-color);
     padding: 0 2%;
-    width: 100%;
 }
 
 header img {
@@ -32,10 +32,14 @@ main {
 main img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 nav {
     display: none;
+    background-color: var(--secondary-color);
+    justify-content: space-around;
+    width: 100%;
 }
 
 nav a {
@@ -46,9 +50,55 @@ nav a {
     align-items: center;
     width: 100%;
     justify-content: center;
+    padding: 5px;
 }
 
 nav a:hover {
+    background-color: var(--main-font-color);
+    color: var(--primary-color);
+}
+
+
+nav.open {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu {
+    font-size: 1rem;
+    border: 0;
+    color: var(--main-font-color);
+    background-color: var(--primary-color);
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before{
+    content: "X";
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join {
+    position: absolute;
+    background-color: var(--primary-color);
+    color: var(--main-font-color);
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+.join:hover {
     background-color: var(--main-font-color);
     color: var(--primary-color);
 }

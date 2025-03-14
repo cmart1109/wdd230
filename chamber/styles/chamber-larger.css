@@ -20,14 +20,16 @@
 
     header div {
         width: 50%;
+        justify-content:flex-start;
     }
 
-
+    #menu {
+        display: none;
+    }
     nav {
-        background-color: var(--primary-color);
         display: flex;
-        justify-content: space-around;
-        width: 50%;
+        flex-direction: row;
+        background-color: var(--primary-color);
     }
 
     .cards {
