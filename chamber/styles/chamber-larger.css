@@ -35,6 +35,18 @@
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
     }
+
+
+    .advertisements img {
+        width: 60%;
+        height: auto;
+        transition: width 0.5s ease-in-out;
+    }
+    
+    .advertisements img:hover {
+        width: 65%;
+    }
+    
 }
