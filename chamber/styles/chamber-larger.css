@@ -48,5 +48,12 @@
     .advertisements img:hover {
         width: 65%;
     }
-    
+
+    footer {
+        height: auto;
+    }
+    .info {
+        display: flex;
+        flex-direction: row;
+    }
 }

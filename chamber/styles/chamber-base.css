@@ -153,6 +153,7 @@ footer {
     justify-content: space-around;
     background-color: var(--primary-color);
     color: var(--main-font-color);
+    height: 20vh;
 
 }
 
@@ -160,4 +161,9 @@ footer div {
     display: flex;
     align-items: center;
 
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
 }
