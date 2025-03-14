@@ -17,7 +17,7 @@ header div {
     align-items: center;
     color: var(--main-font-color);
     padding: 0 2%;
-    width: 50%;
+    width: 100%;
 }
 
 header img {
@@ -34,8 +34,12 @@ main img {
     height: auto;
 }
 
+nav {
+    display: none;
+}
 
 nav a {
+    transition: background-color 0.2s, ease-in-out, background-color 0.2s ease-in-out;
     text-decoration: none;
     color: var(--main-font-color);
     display: flex;
@@ -43,6 +47,7 @@ nav a {
     width: 100%;
     justify-content: center;
 }
+
 nav a:hover {
     background-color: var(--main-font-color);
     color: var(--primary-color);
