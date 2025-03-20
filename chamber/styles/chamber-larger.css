@@ -52,8 +52,18 @@
     footer {
         height: auto;
     }
+
     .info {
         display: flex;
         flex-direction: row;
+    }
+
+    .discover {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .discoverpics img {
+        width: 100%;
     }
 }

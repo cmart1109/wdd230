@@ -167,3 +167,28 @@ footer div {
     display: flex;
     flex-direction: column;
 }
+
+.discoverpics {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: var(--alternate-font-color);
+}
+
+.discoverpics img {
+    width: 100%;
+}
+
+.discoverhighlights {
+    display: flex;
+    flex-direction: column;
+}
+
+.discovercards {
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid var(--primary-color);
+}
+
