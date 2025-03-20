@@ -91,11 +91,17 @@ header span {
     color: white;
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
 main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 
 main section {
     border: 1px solid black;
@@ -108,6 +114,22 @@ main ul {
     padding-bottom: 10px;
     list-style-type: none;
     padding-left: 1rem;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h2 {
+    background-color: var(--main-color);
+    color: var(--font-color);
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    font-weight: bold;
+    left: 40px;
+    top: 40px;
 }
 
 section h2 {
