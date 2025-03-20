@@ -24,7 +24,7 @@
 </head>
 <body>
     <header>
-        <img src="./images/profile.webp" alt="Student Picture">
+        <img src="./images/profile.webp" alt="Student Picture" loading="lazy">
         <span>Christian A. Martinez</span>
         <button type="button" id="menu"></button>
         <button id="mode">
@@ -42,7 +42,7 @@
             <picture>
                 <source media="(max-width: 400px)" srcset="./images/hero_mobile.webp">
                 <source media="(max-width:960px)" srcset="./images/hero_landscape.webp">
-                <img src="./images/hero_landscape.webp" alt="Tegucigalpa Honduras Temple">
+                <img src="./images/hero_landscape.webp" alt="Tegucigalpa Honduras Temple" loading="lazy">
             </picture>
             <h2>Tegucigalpa Honduras Temple</h2>
         </div>
@@ -56,8 +56,8 @@
                 <h2>Learning Activities</h2>
                 <ul>
                     <li>Week 01: <a href="./week01/holygrail.html">Layout</a> | <a href="./week01/media-query.html">media-query</a> | <a href="https://codepen.io/moystcnk-the-solid/pen/EaxWpvP">Js-pen</a></li>
-                    <li>Week 02: <a href="./week02/design.html">Design</a> | <a href="https://codepen.io/moystcnk-the-solid/pen/WbNXbzg">Hamburguer Menu</a> | <a href="./week02/bom.html">Book of Mormon</a></li>
-                    <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="./week03/lazyload.html">Lazy Loading</a> | <a href="./week03/responsive-images.html">Responsive Images</a> | <a href="./week03/bom.html">localStorage</a></li>
+                    <li>Week 02: <a href="./week02/design.html">Design</a> | <a href="https://codepen.io/moystcnk-the-solid/pen/WbNXbzg">Hamburguer Menu</a> | <a href="./week02/bom.html">BOM</a></li>
+                    <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="./week03/lazyload.html">Lazy</a> | <a href="./week03/responsive-images.html">srcset</a> | <a href="./week03/bom.html">localStorage</a></li>
                     <li>Week 04: </li>
                     <li>Week 05: </li>
                     <li>Week 06: </li>
@@ -70,7 +70,7 @@
                 <h2>Information</h2>
                 <div>
                     <span>Weather</span>
-                    <span>Number of visits</span>
+                    <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
                 </div>
             </section>
         </div>
@@ -85,5 +85,6 @@
     <script src="./scripts/hamburguer.js"></script>
     <script src="./scripts/getDates,.js"></script>
     <script src="./scripts/darkMode.js"></script>
+    <script src="./scripts/visits.js"></script>
 </body>
 </html>

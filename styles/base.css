@@ -182,3 +182,13 @@ footer {
     height: 13vh;
     width: 100%;
 }
+
+.label {
+	font-weight: 700;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
