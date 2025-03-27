@@ -49,7 +49,44 @@ main {
     min-height: 20rem;
 }
 
+/*Form Stilying*/
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
 
+.wf1 legend {
+    color: #445ba9;
+    padding:0 .5rem;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: darkred;
+    font-size: .9rem;
+}
+
+.wf1 div {
+    padding-top: 1rem;
+    color: blue;
+    font-size: .9rem;
+}
+
+
+.wf1 input[type="text"],
+.wf1 input[type="tel"],
+.wf1 input[type="email"],
+.wf1 input[type="url"],
+.wf1 input[type="date"],
+.wf1 select
+.wf1 input[type="number"]
+ {
+    background-color: pink;
+    display: block;
+}
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
