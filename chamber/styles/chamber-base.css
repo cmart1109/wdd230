@@ -169,26 +169,50 @@ footer div {
 }
 
 .discoverpics {
+    margin: 10px;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     padding: 10px;
     background-color: var(--alternate-font-color);
 }
 
-.discoverpics img {
+.heritage {
     width: 100%;
 }
 
 .discoverhighlights {
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+.discoverhighlights img {
+    width: 100%;
 }
 
 .discovercards {
-    height: 100px;
     background-color: white;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid var(--primary-color);
 }
 
+.discoverpics img {
+    width: 100%;
+}
+
+.discovercards h1 {
+    font-size: 1.2rem;
+    padding: 8px;
+    text-align: center;
+}
+
+.visits {
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+}
