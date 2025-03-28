@@ -48,11 +48,13 @@
                     <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}" 
                     title="Password must be at least 8 characters long and contain only letters and numbers.">
                 </label>
-
+                
                 <label> Confirm Password* 
-                    <input type="password" id="confirm" name="confirm" required>
-                    <span id="passwordError" class="error-message"></span>
+                    <input type="password" id="confirm" name="confirm" required pattern=".{8,}" 
+                    title="Passwords must match" oninput="checkPasswordMatch()">
                 </label>
+                <span id="passwordError" class="error-message"></span>
+                
 
                 <label> Email 
                     <input type="email" id="email" name="email" required 

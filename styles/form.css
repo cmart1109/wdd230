@@ -10,8 +10,6 @@
 
 
 fieldset {
-    display: flex;
-    flex-direction: column;
     padding: 10px;
     background-color: var(--secondary-color);
     border: 2px solid black;
@@ -24,7 +22,7 @@ form {
 
 input {
     border: 1px solid black;
-    width: 60%;
+    width: 12rem;
     height: 5vh;
 }
 
@@ -36,6 +34,8 @@ label {
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 #submit {
     background-color: var(--main-color);

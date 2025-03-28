@@ -1,16 +1,14 @@
-document.getElementById("userForm").addEventListener("submit", function(event) {
-    let password = document.getElementById("password");
+function checkPasswordMatch() {
+    let password = document.getElementById("password").value;
     let confirmPassword = document.getElementById("confirm");
     let errorMessage = document.getElementById("passwordError");
 
-    if (password.value !== confirmPassword.value) {
-        event.preventDefault(); 
-        errorMessage.textContent = "Passwords do not match. Please try again.";
+    if (confirmPassword.value !== password) {
+        confirmPassword.setCustomValidity("Passwords must match.");
+        errorMessage.textContent = "Passwords do not match.";
         errorMessage.style.color = "red";
-        password.value = "";
-        confirmPassword.value = "";
-        password.focus();
     } else {
+        confirmPassword.setCustomValidity("");
         errorMessage.textContent = "";
     }
-});
+}
