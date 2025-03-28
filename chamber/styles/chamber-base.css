@@ -13,7 +13,7 @@ header, footer {
 }
 
 main {
-    font-family: "Karla", serif;
+    font-family: "Outfit", serif;
 }
 
 
@@ -238,10 +238,12 @@ legend {
 
 .form {
     background-color: var(--alternate-font-color);
+    margin: 20px;
 }
 
 .formc {
     margin: 1rem;
+    border-radius: 10px;
     background-color: var(--main-font-color);
     padding: 10px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
@@ -252,6 +254,7 @@ fieldset {
     flex-direction: column;
     padding: 10px;
     border: .5px solid var(--secondary-color);
+    border-radius: 10px;
 }
 
 fieldset label {
@@ -266,6 +269,20 @@ fieldset label {
 
 select, option {
     font-size: small;
+    width: 50%;
+    border: none;
+    font-family: "outfit", serif;
+}
+
+input {
+    font-size: medium;
+    border: 0;
+    width: 50%;
+}
+
+input::placeholder  {
+    font-size: small;
+    font-family: "outfit", serif;
 }
 
 .submit {
@@ -287,11 +304,15 @@ select, option {
 }
 
 .formi {
-    border: .5px solid var(--secondary-color);
+    border: 0;
+    border-radius: 10px;
     margin: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .formi h1 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     background-color: var(--secondary-color);
     color: var(--alternate-font-color);
     height: 5vh;
@@ -300,6 +321,10 @@ select, option {
     justify-content: center;
 }
 
-.formi p {
-    padding: 8px;
+.memberships {
+    padding: 10px;
+}
+
+.memberships div {
+    margin: 1rem;
 }
