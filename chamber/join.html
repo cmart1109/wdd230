@@ -41,13 +41,19 @@
     <main class="form">
         <h1 class="formt"> Join the Vanguard Chamber and connect with innovative businesses! </h1>
         <div class="formc">
-            <form method="get">
+            <form method="get" action="./thankyou.html">
                 
                 <fieldset>
                     <legend>Join Application</legend>
                     <label>First Name* <input type="text" name="name" id="name" required></label>
                     <label>Last Name* <input type="text" name="last" id="last" required></label>
-                    <label>Position <input type="text" name="position" id="position" ></label>
+                    <label>Position 
+                        <input type="text" name="position" id="position" 
+                               pattern="[A-Za-zÀ-ÿ\s]{7,}" 
+                               title="Only letters and spaces are allowed (minimum 7 characters)" 
+                               minlength="7" required>
+                    </label>
+                    
                     <label>Email Address <input type="email" name="email" id="email" placeholder="someone@example.com" required></label>
                     <label>Phone Number <input type="tel" name="phone" id="phone" required></label>
                     <label>Organization´s name <input type="text" name="organization" id="organization" required></label>
@@ -59,6 +65,7 @@
                         <option value="gold">Gold Membership</option>
                     </select></label>
                     <label>Organization´s Description <textarea name="description" id="description"></textarea></label>
+                    <label><input type="hidden" name="timestamp" id="timestamp"></label>
                     <label class="submit"> <input type="submit" value="Submit Info"></label>
                     
                 </fieldset>
@@ -107,5 +114,6 @@
     </footer>
     <script src="./scripts/hamburguer.js"></script>
     <script src="./scripts/lastModified.js"></script>
+    <script src="./scripts/timeStamp.js"></script>
 </body>
 </html>

@@ -274,10 +274,11 @@ select, option {
     font-family: "outfit", serif;
 }
 
-input {
-    font-size: medium;
+input, textarea {
+    font-size: small;
     border: 0;
     width: 50%;
+    font-family: "outfit", serif;
 }
 
 input::placeholder  {
@@ -294,7 +295,7 @@ input::placeholder  {
     background-color: var(--primary-color);
     border: 0;
     padding: 8px;
-    font-size: medium;
+    font-size: small;
     color: var(--alternate-font-color);
     font-weight: bold;
 }
@@ -327,4 +328,11 @@ input::placeholder  {
 
 .memberships div {
     margin: 1rem;
+}
+
+.thanks {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
