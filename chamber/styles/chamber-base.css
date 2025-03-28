@@ -4,11 +4,19 @@
     --main-font-color: #D8DEE9; 
     --alternate-font-color: #FFFFFF;
     margin: 0;
-    font-family: "Newsreader", serif;
     font-style: normal;
     font-size: large;
   }
    
+header, footer {
+    font-family: "Newsreader", serif;
+}
+
+main {
+    font-family: "Karla", serif;
+}
+
+
 
 header div {
     background-color: var(--primary-color) ;
@@ -215,4 +223,83 @@ footer div {
     margin: 10px;
     padding: 10px;
     border: 1px solid var(--primary-color);
+}
+
+.formt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+legend {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.form {
+    background-color: var(--alternate-font-color);
+}
+
+.formc {
+    margin: 1rem;
+    background-color: var(--main-font-color);
+    padding: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: .5px solid var(--secondary-color);
+}
+
+fieldset label {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    height: 4vh;
+    align-items: center;
+    font-weight: bold;
+    font-size: medium;
+}
+
+select, option {
+    font-size: small;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.submit input {
+    background-color: var(--primary-color);
+    border: 0;
+    padding: 8px;
+    font-size: medium;
+    color: var(--alternate-font-color);
+    font-weight: bold;
+}
+
+.submit input:hover {
+    background-color: var(--secondary-color);
+}
+
+.formi {
+    border: .5px solid var(--secondary-color);
+    margin: 10px;
+}
+
+.formi h1 {
+    background-color: var(--secondary-color);
+    color: var(--alternate-font-color);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formi p {
+    padding: 8px;
 }
