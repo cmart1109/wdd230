@@ -1,0 +1,41 @@
+[{
+    "family_name" : "Martinez",
+    "date" : "03/31/2025",
+    "number_of_people" : 2,
+    "visited_by_bishopric" : false,
+    "individual_family_members" : [
+        {
+            "name" : "Christian",
+            "gender" : "Male",
+            "birthdate" : "2002-08-01"
+        },
+        {
+            "name" : "Laura",
+            "gender" : "Female",
+            "birthdate" : "1979-12-05"
+        }
+    ]
+},
+{
+    "family_name": "Gonzalez",
+    "date": "2025-03-31",
+    "number_of_people": 3,
+    "visited_by_bishopric": true,
+    "individual_family_members": [
+        {
+            "name": "Carlos",
+            "gender": "Male",
+            "birthdate": "1985-06-15"
+        },
+        {
+            "name": "María",
+            "gender": "Female",
+            "birthdate": "1988-09-22"
+        },
+        {
+            "name": "Andrés",
+            "gender": "Male",
+            "birthdate": "2015-01-10"
+        }
+    ]
+}]
