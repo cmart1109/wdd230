@@ -1,0 +1,30 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    font-size: small;
+    background-color:beige;    
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header, footer {
+    text-align: center;
+    background-color: wheat;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
