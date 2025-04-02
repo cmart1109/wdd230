@@ -336,3 +336,15 @@ input::placeholder  {
     align-items: center;
     justify-content: center;
 }
+
+.member {
+    background-color: violet;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+

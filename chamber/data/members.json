@@ -5,7 +5,7 @@
             "address" : "1234 Diamond St, Gem City, CA 90210",
             "phone" : "(555) 123-4567",
             "website-URL" : "https://www.walmart.com/",
-            "image" : "../images/directory/walmart.png",
+            "image" : "./images/directory/wl.png",
             "membership-level" : "Gold"
         }
         ,
@@ -14,7 +14,7 @@
             "address" : "5678 Emerald Ave, Gem City, CA 90210",
             "phone" : "(555) 987-6543",
             "website-URL" : "https://www.adoc.com/",
-            "image" : "../images/directory/adoc.png",
+            "image" : "./images/directory/adoc.png",
             "membership-level" : "Silver"
         }
         , 
@@ -23,16 +23,16 @@
             "address" : "9101 Ruby Rd, Gem City, CA 90210",
             "phone" : "(555) 456-7890",
             "website-URL" : "https://www.diunsa.com/",
-            "image" : "../images/directory/diunsa.png",
+            "image" : "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/082022/diunsa.png?Q0dFa3pUB5abtpKd8Ml6E_BG_d_mwk43&itok=QelpnJUy",
             "membership-level" : "Bronze"
         }
         , 
         {
-            "name" : "ensure",
+            "name" : "Ensure",
             "address" : "2345 Sapphire St, Gem City, CA 90210",
             "phone" : "(555) 678-1234",
             "website-URL" : "https://www.ensure.com/",
-            "image" : "../images/directory/ensure.png",
+            "image" : "./images/directory/ensure.png",
             "membership-level" : "Gold"
         }
         ,
@@ -41,7 +41,7 @@
             "address" : "6789 Topaz Ave, Gem City, CA 90210",
             "phone" : "(555) 234-5678",
             "website-URL" : "https://www.pampers.com/",
-            "image" : "../images/directory/pampers.png",
+            "image" : "./images/directory/pampers.png",
             "membership-level" : "Silver"
         }
         ,
@@ -50,7 +50,7 @@
             "address" : "3456 Amethyst Rd, Gem City, CA 90210",
             "phone" : "(555) 345-6789",
             "website-URL" : "https://www.pepsi.com/",
-            "image" : "../images/directory/pepsi.png",
+            "image" : "./images/directory/pepsi.png",
             "membership-level" : "Bronze"
         }
         ,
@@ -59,7 +59,7 @@
             "address" : "7890 Opal St, Gem City, CA 90210",
             "phone" : "(555) 456-7890",
             "website-URL" : "https://www.paypal.com/",
-            "image" : "../images/directory/paypal.png",
+            "image" : "./images/directory/paypal.png",
             "membership-level" : "Gold"
         }
     ]
