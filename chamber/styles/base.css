@@ -338,13 +338,52 @@ input::placeholder  {
 }
 
 .member {
-    background-color: violet;
-    margin: 10px;
+    background-color: var(--alternate-font-color);
+    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    border-radius: 8px;
     justify-content: center;
     text-align: center;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+
+}
+
+.member img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#members {
+    padding: 15px;
+
+}
+
+.directory-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    justify-content: center;
+}
+
+.directory-toggle button {
+ margin-left: 10px;
+ margin-right: 10px;   
+ color: var(--primary-color);
+ background-color: var(--main-font-color);
+ width: 7rem;
+ font-family: "Outfit", serif;
+ border: 0;
+ border-radius: 8px;
+ transition: background-color 0.3s ease-in-out;
+}
+
+.directory-toggle button:hover {
+    background-color: var(--alternate-font-color);
 }
 

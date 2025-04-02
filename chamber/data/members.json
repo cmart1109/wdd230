@@ -13,7 +13,7 @@
             "name" : "ADOC",
             "address" : "5678 Emerald Ave, Gem City, CA 90210",
             "phone" : "(555) 987-6543",
-            "website-URL" : "https://www.adoc.com/",
+            "websiteURL" : "https://www.adoc.com/",
             "image" : "./images/directory/adoc.png",
             "membership-level" : "Silver"
         }

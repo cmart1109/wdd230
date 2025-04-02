@@ -23,11 +23,12 @@ function displayCompanies(members) {
         let phone = document.createElement("p");
         let link = document.createElement("a");
 
-        img.setAttribute("src", member.logo);
+        img.setAttribute("src", member.image);
         img.setAttribute("alt", member.name);
         address.textContent = member.address;
         phone.textContent = member.phone;
-        link.setAttribute("href", member.link);
+        link.setAttribute("href", member.websiteURL);
+        link.textContent = "Website";
 
         divMember.appendChild(img);
         divMember.appendChild(address);
