@@ -93,9 +93,9 @@
         transform: scale(1.1);
     }
     
-    #members {
+    #members.grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-    }
+    }  
 }
