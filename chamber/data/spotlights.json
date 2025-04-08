@@ -1,0 +1,47 @@
+{ 
+  "spotlights": [
+    {
+      "company": "Global Freight Solutions",
+      "slogan": "Delivering your success!",
+      "email": "global@freightsolutions.com",
+      "phone": "+504 8800-1919",
+      "image": "./images/spotlight1.webp"
+    },
+    {
+      "company": "Code Innovators",
+      "slogan": "Empowering businesses through technology",
+      "email": "info@codeinnovators.com",
+      "phone": "+504 3334-5217",
+      "image": "./images/spotlight2.webp"
+    },
+    {
+      "company": "Green Future landscaping",
+      "slogan": "Sustainable designs for modern businesses!",
+      "email": "contact@greenfuture.com",
+      "phone": "+504 9627-1236",
+      "image": "./images/spotlight3.webp"
+    },
+    {
+      "company": "Skyline Marketing Group",
+      "slogan": "Reach new heights with your brand!",
+      "email": "hello@skylinemarketing.com",
+      "phone": "+504 9981-7744",
+      "image": "./images/spotlight4.webp"
+    },
+    {
+      "company": "EcoTech Solutions",
+      "slogan": "Technology with a green heart",
+      "email": "support@ecotechsolutions.com",
+      "phone": "+504 8790-3321",
+      "image": "./images/spotlight5.webp"
+    },
+    {
+      "company": "Honduras Legal Experts",
+      "slogan": "Trusted legal advice at your fingertips",
+      "email": "contact@hnlegal.com",
+      "phone": "+504 2221-4560",
+      "image": "./images/spotlight6.webp"
+    }
+  ]
+}
+  
