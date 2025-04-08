@@ -31,16 +31,20 @@
         background-color: var(--primary-color);
     }
 
+    main {
+        height: 100%;
+    }
+
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 2fr;
     }
 
-
     .advertisements img {
         width: 100%;
-        transition: width 0.5s ease-in-out;
+        height: auto;
+        transition: height 0.5s ease-in-out;
         overflow: hidden;
     }
 
@@ -90,7 +94,7 @@
     
     #members.grid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }  
 }

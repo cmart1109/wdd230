@@ -116,7 +116,19 @@ nav.open {
     display: flex;
     flex-direction: column;
     border-radius: 2px;
+    padding: 8px;
 }
+
+.advertisements {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.advertisements:hover {
+    background-color: var(--secondary-color);
+    color: var(--alternate-font-color);
+}
+
+
 
 .cards div {
     padding: 8px;
@@ -253,14 +265,13 @@ legend {
     border-radius: 10px;
     background-color: var(--main-font-color);
     padding: 10px;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 fieldset {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    border: .5px solid var(--secondary-color);
+    border: none;
     border-radius: 10px;
 }
 
@@ -315,7 +326,7 @@ input::placeholder  {
     border: 0;
     border-radius: 10px;
     margin: 10px;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .formi h1 {
@@ -354,7 +365,7 @@ input::placeholder  {
     border-radius: 8px;
     justify-content: center;
     text-align: center;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
 
 }
 

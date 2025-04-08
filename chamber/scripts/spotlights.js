@@ -27,10 +27,10 @@ const displaySpotlights = (spotlights) => {
         image.setAttribute('loading','lazy');
 
         card.appendChild(name);
-        card.appendChild(image);
         card.appendChild(slogan);
         card.appendChild(email);
         card.appendChild(phone);
+        card.appendChild(image);
         cards.appendChild(card);
     });
 }
