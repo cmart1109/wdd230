@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     * {
         --primary-color: #2e3440;
         --secondary-color: #3b4252;
@@ -22,7 +22,6 @@
         width: 50%;
         justify-content:flex-start;
     }
-
     #menu {
         display: none;
     }
@@ -40,13 +39,9 @@
 
 
     .advertisements img {
-        width: 60%;
-        height: auto;
+        width: 100%;
         transition: width 0.5s ease-in-out;
-    }
-    
-    .advertisements img:hover {
-        width: 65%;
+        overflow: hidden;
     }
 
     footer {
