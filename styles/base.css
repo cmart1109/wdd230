@@ -9,10 +9,12 @@
         margin: 0;
 }
 
+
 h1 {
     font-size: large;
     padding: 10px;
 }
+
 header {
     display: flex;
     flex-direction: row;

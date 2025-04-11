@@ -71,6 +71,27 @@ nav.open {
     flex-direction: column;
 }
 
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: var(--main-font-color);
+    padding: 10px;
+    height: 12vh;
+}
+
+#banner-close-button {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: black;
+    border: none;
+    color: var(--main-font-color);
+}
+
+
 #menu {
     font-size: 1rem;
     border: 0;
