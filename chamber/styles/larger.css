@@ -42,10 +42,14 @@
     }
 
     .advertisements img {
-        width: 100%;
+        width: 80%;
         height: auto;
-        transition: height 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
         overflow: hidden;
+    }
+
+    .advertisements img:hover {
+        width: 85%;
     }
 
     footer {

@@ -6,7 +6,10 @@
             "phone" : "(555) 123-4567",
             "websiteURL" : "https://www.walmart.com/",
             "image" : "./images/directory/wl.png",
-            "membership-level" : "Gold"
+            "mainImage" : "./images/main/walmart.webp",
+            "membershipLevel" : "Gold",
+            "description" : "Walmart Inc. is an American multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. It is the world's largest company by revenue, according to the Fortune Global 500 list in 2020."
+            
         }
         ,
         {
@@ -15,7 +18,9 @@
             "phone" : "(555) 987-6543",
             "websiteURL" : "https://www.adoc.com/",
             "image" : "./images/directory/adoc.png",
-            "membership-level" : "Silver"
+            "mainImage" : "./images/main/adoc.webp",
+            "membershipLevel" : "Silver",
+            "description" : "ADOC is a leading provider of innovative solutions in the field of technology and consulting. We specialize in delivering high-quality services to our clients, helping them achieve their business goals."
         }
         , 
         {
@@ -23,8 +28,10 @@
             "address" : "9101 Ruby Rd, Gem City, CA 90210",
             "phone" : "(555) 456-7890",
             "websiteURL" : "https://www.diunsa.com/",
-            "image" : "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/082022/diunsa.png?Q0dFa3pUB5abtpKd8Ml6E_BG_d_mwk43&itok=QelpnJUy",
-            "membership-level" : "Bronze"
+            "image" : "./images/directory/diunsa.png",
+            "mainImage" : "./images/main/diunsa.webp",
+            "membershipLevel" : "Bronze",
+            "description" : "Diunsa is a leading retail and distribution company in Central America, offering a wide range of products and services to meet the needs of our customers. We are committed to providing quality and value in everything we do."
         }
         , 
         {
@@ -33,34 +40,41 @@
             "phone" : "(555) 678-1234",
             "websiteURL" : "https://www.ensure.com/",
             "image" : "./images/directory/ensure.png",
-            "membership-level" : "Gold"
+            "mainImage" : "./images/main/ensure.webp",
+            "membershipLevel" : "Gold",
+            "description" : "Ensure is a brand of nutritional supplements that provide complete and balanced nutrition for adults. Our products are designed to help you maintain a healthy lifestyle and support your overall well-being."
         }
         ,
         {
-            "name" : "pampers",
+            "name" : "Pampers",
             "address" : "6789 Topaz Ave, Gem City, CA 90210",
             "phone" : "(555) 234-5678",
             "websiteURL" : "https://www.pampers.com/",
             "image" : "./images/directory/pampers.png",
-            "membership-level" : "Silver"
+            "mainImage" : "./images/main/pampers.webp",
+            "membershipLevel" : "Silver",
+            "description" : "Pampers is a brand of disposable diapers and baby wipes that provides comfort and protection for babies. Our products are designed to keep your baby dry and happy, so you can enjoy every moment together."
         }
         ,
         {
-            "name" : "pepsi",
+            "name" : "Pepsi",
             "address" : "3456 Amethyst Rd, Gem City, CA 90210",
             "phone" : "(555) 345-6789",
             "websiteURL" : "https://www.pepsi.com/",
             "image" : "./images/directory/pepsi.png",
-            "membership-level" : "Bronze"
+            "membershipLevel" : "Bronze",
+            "description" : "Pepsi is a global food and beverage leader known for its iconic brands and commitment to sustainability. We strive to create a better tomorrow by reducing our environmental impact and supporting our communities."
         }
         ,
         {
-            "name" : "paypal",
+            "name" : "Paypal",
             "address" : "7890 Opal St, Gem City, CA 90210",
             "phone" : "(555) 456-7890",
             "websiteURL" : "https://www.paypal.com/",
             "image" : "./images/directory/paypal.png",
-            "membership-level" : "Gold"
+            "mainImage" : "./images/main/paypal.webp",
+            "membershipLevel" : "Gold",
+            "description" : "PayPal is a global online payment platform that allows individuals and businesses to send and receive money securely. We are committed to providing a safe and convenient way to manage your finances online."
         }
     ]
 }
